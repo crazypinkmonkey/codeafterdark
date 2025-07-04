@@ -114,4 +114,4 @@ submission = pd.DataFrame({
 })
 
 submission.to_csv('submission_voting.csv', index=False)
-print("Sea God Submission Ready 🧜‍♂️🔥")
+print("Sea God Submission Ready")
