@@ -1,0 +1,13 @@
+import requests
+api_key = "a61011d7a572db34096420e35a9516a5"
+
+user_input = input("Enter your city")
+    
+weather_data   = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+user_input+"&appid="+api_key)
+weather_json = weather_data.json()
+
+temp = weather_json['main']['temp']
+
+print(temp - 273)
+
+    
