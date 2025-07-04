@@ -7,7 +7,7 @@ from llama_cpp import Llama
 engine = pyttsx3.init()
 
 llm = Llama(
-    model_path="C:/Users/Aditya/models/tinyllama-1.1b-chat-v1.0.Q4_0.gguf",
+    model_path="model_path",
     n_ctx=512,
     n_threads=4
 )
